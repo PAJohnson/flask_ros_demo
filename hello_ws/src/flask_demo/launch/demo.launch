@@ -1,0 +1,6 @@
+<launch>
+
+	<node name="talker" pkg="flask_demo" type="talker.py" output="screen"/>
+	<node name="server" pkg="flask_demo" type="server.py" output="screen"/>
+
+</launch>

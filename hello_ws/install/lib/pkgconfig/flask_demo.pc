@@ -1,0 +1,8 @@
+prefix=/home/patrick/hello_ws/install
+
+Name: flask_demo
+Description: Description of flask_demo
+Version: 0.0.0
+Cflags: -I/home/patrick/hello_ws/install/include
+Libs: -L/home/patrick/hello_ws/install/lib 
+Requires: roscpp message_runtime rospy std_msgs
