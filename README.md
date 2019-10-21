@@ -10,9 +10,11 @@ clone this repo into CATKIN_WS/src/
 
 cd into repo
 
-execute "pip install --user -r requirements.txt"
+execute: "python -m virtualenv venv"
 
 execute: ". venv/bin/activate"
+
+execute "pip install --user -r requirements.txt"
 
 cd into root directory of catkin workspace
 
