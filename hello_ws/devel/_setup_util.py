@@ -1,4 +1,4 @@
-#!/home/patrick/hello_ws/venv/bin/python
+#!/usr/bin/python
 # -*- coding: utf-8 -*-
 
 # Software License Agreement (BSD License)
