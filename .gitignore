@@ -1,0 +1,2 @@
+#avoid pulling entire virtual environment!
+venv/

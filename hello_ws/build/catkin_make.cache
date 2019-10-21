@@ -1,2 +1,0 @@
-flask_demo
--DCATKIN_DEVEL_PREFIX=/home/patrick/hello_ws/devel -DCMAKE_INSTALL_PREFIX=/home/patrick/hello_ws/install -G Unix Makefiles
