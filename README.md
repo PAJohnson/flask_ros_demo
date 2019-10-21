@@ -7,11 +7,15 @@ interaction of a web server (flask) and ROS.
 prerequisites: ubuntu 16.04, ROS kinetic, web browser.
 
 before running:
+
 cd into git directory
+
 execute: ". devel/setup.bash"
+
 execute: ". venv/bin/activate"
 
 to run:
+
 execute: "roslaunch flask_demo demo.launch"
 
 navigate to http://0.0.0.0:4996 in a web browser!
