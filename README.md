@@ -14,7 +14,7 @@ execute: "python -m virtualenv venv"
 
 execute: ". venv/bin/activate"
 
-execute "pip install --user -r requirements.txt"
+execute "python -m pip install --user -r requirements.txt"
 
 cd into root directory of catkin workspace
 
