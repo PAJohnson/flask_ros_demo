@@ -10,7 +10,7 @@ clone this repo into CATKIN_WS/src/
 
 cd into repo
 
-execute "pip install -r requirements.txt"
+execute "pip install --user -r requirements.txt"
 
 execute: ". venv/bin/activate"
 
