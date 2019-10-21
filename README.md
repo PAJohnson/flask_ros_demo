@@ -8,7 +8,7 @@ prerequisites: ubuntu 16.04, ROS kinetic, web browser.
 
 before running:
 
-cd into git directory
+cd into hello_ws directory
 
 execute: ". devel/setup.bash"
 
