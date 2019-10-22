@@ -29,7 +29,7 @@ Jinja2==2.10.3
 laser-geometry==1.6.4
 MarkupSafe==1.1.1
 message-filters==1.12.14
-pkg-resources==0.0.0
+# pkg-resources==0.0.0
 pluginlib==1.11.3
 pyparsing==2.4.2
 python-dateutil==2.8.0

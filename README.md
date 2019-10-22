@@ -8,13 +8,13 @@ prerequisites: ubuntu 16.04, ROS kinetic, web browser, python, pip.
 
 clone this repo into CATKIN_WS/src/
 
-cd into repo
+cd into repo (flask_ros_demo/flask_demo)
 
 execute: "python -m virtualenv venv"
 
 execute: ". venv/bin/activate"
 
-execute "pip install --user -r requirements.txt"
+execute "pip install -r requirements.txt"
 
 cd into root directory of catkin workspace
 
