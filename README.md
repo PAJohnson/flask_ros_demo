@@ -16,6 +16,8 @@ execute: ". venv/bin/activate"
 
 execute "pip install -r requirements.txt"
 
+execute "python -m pip install -r requirements.txt"
+
 cd into root directory of catkin workspace
 
 execute: ". devel/setup.bash"
