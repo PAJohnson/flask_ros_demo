@@ -3,8 +3,9 @@
 import os
 import rospy
 import threading
+import json
 
-from flask import Flask
+from flask import Flask, render_template, request
 
 from std_msgs.msg import String
 
@@ -20,10 +21,16 @@ rospy.Subscriber('chatter', String, ros_callback)
 
 app = Flask(__name__)
 
-@app.route('/')
+@app.route('/index.html')
 def hello_world():
 	global hello_str
-	return "ros topic chatter says: " + str(hello_str)
+	return render_template('index.html')
+	
+@app.route('/timeupdate', methods = ['GET'])
+def timeupdate():
+	global hello_str
+	if request.method == 'GET':
+		return hello_str
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=4996)
