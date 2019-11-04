@@ -14,8 +14,6 @@ execute: "python -m virtualenv venv"
 
 execute: ". venv/bin/activate"
 
-execute "pip install -r requirements.txt"
-
 execute "python -m pip install -r requirements.txt"
 
 cd into root directory of catkin workspace
@@ -26,6 +24,6 @@ to run:
 
 execute: "roslaunch flask_demo demo.launch"
 
-navigate to http://0.0.0.0:4996 in a web browser!
+navigate to http://0.0.0.0:4996/index.html in a web browser!
 
 
