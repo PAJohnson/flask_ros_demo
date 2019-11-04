@@ -25,7 +25,7 @@ app = Flask(__name__)
 def hello_world():
 	global hello_str
 	return render_template('index.html')
-	
+
 @app.route('/timeupdate', methods = ['GET'])
 def timeupdate():
 	global hello_str
