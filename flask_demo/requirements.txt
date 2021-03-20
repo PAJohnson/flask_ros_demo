@@ -25,7 +25,7 @@ genpy==0.6.7
 image-geometry==1.12.8
 interactive-markers==1.11.4
 itsdangerous==1.1.0
-Jinja2==2.10.3
+Jinja2==2.11.3
 laser-geometry==1.6.4
 MarkupSafe==1.1.1
 message-filters==1.12.14
